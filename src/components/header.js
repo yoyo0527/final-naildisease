@@ -9,24 +9,24 @@ function AppHeader() {
       <Container>
         <div className="brand-wrapper">
           <img className="nail-logo" src={require('../assets/images/handlogo.png')} alt="..." />
-          <Navbar.Brand href="/naildisease">Nail Disease</Navbar.Brand>
+          <Navbar.Brand href="/final-naildisease">Nail Disease</Navbar.Brand>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav >
-            <Nav.Link href="/naildisease">首頁</Nav.Link>
+            <Nav.Link href="/final-naildisease">首頁</Nav.Link>
             <hr className="nav-divider" />
-            <Nav.Link href="/naildisease/disease">辨識的疾病</Nav.Link>
+            <Nav.Link href="/final-naildisease/disease">辨識的疾病</Nav.Link>
             <hr className="nav-divider" />
-            {/* <Nav.Link href="/naildisease/skill">運用技術</Nav.Link>
+            {/* <Nav.Link href="/final-naildisease/skill">運用技術</Nav.Link>
             <hr className="nav-divider" /> */}
-            {/* <Nav.Link href="/naildisease/video">觀看影片</Nav.Link>
+            {/* <Nav.Link href="/final-naildisease/video">觀看影片</Nav.Link>
             <hr className="nav-divider" /> */}
-            <Nav.Link href="/naildisease/beforetest">前測</Nav.Link>
+            <Nav.Link href="/final-naildisease/beforetest">前測</Nav.Link>
             <hr className="nav-divider" />
-            <Nav.Link href="/naildisease/aftertest">後測</Nav.Link>
+            <Nav.Link href="/final-naildisease/aftertest">後測</Nav.Link>
             <hr className="nav-divider" />
-            <Nav.Link href="/naildisease/detect" >體驗</Nav.Link>
+            <Nav.Link href="/final-naildisease/detect" >體驗</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

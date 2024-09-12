@@ -9,13 +9,13 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/naildisease" element ={<Home/>} />
-          <Route path="/naildisease/disease" element ={<Disease/>} />
-          <Route path="/naildisease/skill" element ={<Skill/>} />
-          <Route path="/naildisease/video" element ={<Videopage/>} />
-          <Route path="/naildisease/beforetest" element ={<Beforetest/>} />
-          <Route path="/naildisease/aftertest" element ={<Aftertest/>} />
-          <Route path="/naildisease/detect" element ={<NailDetect/>} />
+          <Route path="/final-naildisease" element ={<Home/>} />
+          <Route path="/final-naildisease/disease" element ={<Disease/>} />
+          <Route path="/final-naildisease/skill" element ={<Skill/>} />
+          <Route path="/final-naildisease/video" element ={<Videopage/>} />
+          <Route path="/final-naildisease/beforetest" element ={<Beforetest/>} />
+          <Route path="/final-naildisease/aftertest" element ={<Aftertest/>} />
+          <Route path="/final-naildisease/detect" element ={<NailDetect/>} />
         </Routes>
       </Router>
     </div>

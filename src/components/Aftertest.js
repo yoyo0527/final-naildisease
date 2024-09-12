@@ -210,7 +210,7 @@ export default function Aftertestpage() {
                             text: '得分:' + (afterscore+1) + '/10',
                             imageUrl: scorepic,
                         })
-                        navigate('/naildisease');
+                        navigate('/final-naildisease');
                     });
                 } else {
                     Swal.fire('Mistake', '正確答案為(B)生物大腦結構', 'error').then(()=>{
@@ -218,7 +218,7 @@ export default function Aftertestpage() {
                             text: '得分:' + afterscore + '/10',
                             imageUrl: scorepic,
                         })
-                        navigate('/naildisease');
+                        navigate('/final-naildisease');
                     });
                 } 
                 break;

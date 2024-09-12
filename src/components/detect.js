@@ -101,19 +101,19 @@ export default function Detect() {
             if (data){
                 Swal.fire('Correct', '辨識完畢!', 'success');
                 if (data.prediction === 'Onychomycosis') {
-                    navigate('/naildisease/disease#graynail');
+                    navigate('/final-naildisease/disease#graynail');
                 }else if(data.prediction === 'beau_s') {
-                    navigate('/naildisease/disease#beaus');
+                    navigate('/final-naildisease/disease#beaus');
                 }else if(data.prediction === 'black_line') {
-                    navigate('/naildisease/disease#blackline');
+                    navigate('/final-naildisease/disease#blackline');
                 }else if(data.prediction === 'clubbing') {
-                    navigate('/naildisease/disease#clubbing');
+                    navigate('/final-naildisease/disease#clubbing');
                 }else if(data.prediction === 'healthy nail') {
-                    navigate('/naildisease/disease#healthy_nail');
+                    navigate('/final-naildisease/disease#healthy_nail');
                 }else if(data.prediction === 'onycholysis') {
-                    navigate('/naildisease/disease#nailbroken');
+                    navigate('/final-naildisease/disease#nailbroken');
                 }else if(data.prediction === 'white spot') {
-                    navigate('/naildisease/disease#whitedot');
+                    navigate('/final-naildisease/disease#whitedot');
                 }else{
                     Swal.fire('Mistake', '上傳辨識失敗!', 'error');
                 }
